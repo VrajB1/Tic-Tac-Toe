@@ -1,0 +1,37 @@
+.square {
+    background: #fff;
+    border: 2px solid #007bff;
+    float: left;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  .square:disabled {
+    cursor: not-allowed;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
